@@ -1,0 +1,120 @@
+2024-08-13 06:30:05,328 INFO o.s.b.StartupInfoLogger [restartedMain] Starting ApexgrocerApplication using Java 17.0.10 with PID 15636 (C:\Users\srith\OneDrive\Desktop\market\spring-template-final - Copy\spring-template-final - Copy\Spring-Security-Template-V4\target\classes started by srith in C:\Users\srith\OneDrive\Desktop\market\spring-template-final - Copy\spring-template-final - Copy\Spring-Security-Template-V4)
+2024-08-13 06:30:05,339 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-13 06:30:05,417 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-13 06:30:05,422 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-13 06:30:07,667 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-13 06:30:07,771 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 94 ms. Found 4 JPA repository interfaces.
+2024-08-13 06:30:09,045 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-08-13 06:30:09,067 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-13 06:30:09,071 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-13 06:30:09,075 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-13 06:30:09,208 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-13 06:30:09,211 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3781 ms
+2024-08-13 06:30:09,431 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-13 06:30:09,545 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-13 06:30:09,599 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-13 06:30:09,968 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-13 06:30:10,013 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-08-13 06:30:10,427 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4910f949
+2024-08-13 06:30:10,434 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-08-13 06:30:10,527 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-13 06:30:12,974 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-13 06:30:13,281 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-13 06:30:14,829 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-13 06:30:15,269 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-13 06:30:16,375 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-13 06:30:17,325 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-13 06:30:17,438 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2024-08-13 06:30:17,480 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path '/'
+2024-08-13 06:30:17,509 INFO o.s.b.StartupInfoLogger [restartedMain] Started ApexgrocerApplication in 13.257 seconds (process running for 14.596)
+2024-08-13 06:30:47,512 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-13 06:30:47,513 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-08-13 06:30:47,516 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-08-13 06:30:47,535 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /api/auth/login
+2024-08-13 06:30:47,556 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/auth/login
+2024-08-13 06:30:47,561 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-13 06:30:47,564 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured POST /api/auth/login
+2024-08-13 06:30:48,444 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-3] Failed to find user 'v'
+2024-08-13 06:30:48,459 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-3] Pre-authenticated entry point called. Rejecting access
+2024-08-13 06:30:48,476 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /error
+2024-08-13 06:30:48,476 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-13 06:30:48,482 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-3] Pre-authenticated entry point called. Rejecting access
+2024-08-13 06:30:49,066 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /api/auth/login
+2024-08-13 06:30:49,070 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-13 06:30:49,070 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured POST /api/auth/login
+2024-08-13 06:30:49,252 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-4] Failed to find user 'v'
+2024-08-13 06:30:49,252 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-4] Pre-authenticated entry point called. Rejecting access
+2024-08-13 06:30:49,252 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /error
+2024-08-13 06:30:49,252 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-13 06:30:49,265 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-4] Pre-authenticated entry point called. Rejecting access
+2024-08-13 06:31:06,358 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /api/auth/login
+2024-08-13 06:31:06,366 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /api/auth/login
+2024-08-13 06:31:06,372 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-13 06:31:06,374 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured POST /api/auth/login
+2024-08-13 06:31:06,610 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-2] Failed to find user 'v'
+2024-08-13 06:31:06,610 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-2] Pre-authenticated entry point called. Rejecting access
+2024-08-13 06:31:06,626 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing POST /error
+2024-08-13 06:31:06,626 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-13 06:31:06,626 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-8080-exec-2] Pre-authenticated entry point called. Rejecting access
+2024-08-13 06:31:30,379 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /api/auth/register
+2024-08-13 06:31:30,385 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing POST /api/auth/register
+2024-08-13 06:31:30,395 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-13 06:31:30,400 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured POST /api/auth/register
+2024-08-13 06:31:49,578 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /api/auth/login
+2024-08-13 06:31:49,584 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/auth/login
+2024-08-13 06:31:49,586 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-13 06:31:49,586 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured POST /api/auth/login
+2024-08-13 06:31:49,830 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-8080-exec-3] Authenticated user
+2024-08-13 06:51:01,367 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /api/auth/login
+2024-08-13 06:51:04,055 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /api/auth/login
+2024-08-13 06:51:16,419 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /api/auth/login
+2024-08-13 06:51:56,849 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /api/auth/register
+2024-08-13 06:58:12,520 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 06:58:12,520 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 06:58:28,372 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 06:58:28,389 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 06:59:20,500 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /homeproduct/addproduct
+2024-08-13 06:59:21,887 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /homeproduct/addproduct
+2024-08-13 06:59:22,480 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /homeproduct/addproduct
+2024-08-13 06:59:22,697 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /homeproduct/addproduct
+2024-08-13 06:59:23,042 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /homeproduct/addproduct
+2024-08-13 06:59:23,804 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /homeproduct/addproduct
+2024-08-13 07:00:57,692 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:04:37,557 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/auth/getall
+2024-08-13 07:04:37,557 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /api/auth/getall
+2024-08-13 07:04:41,977 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /order/getall
+2024-08-13 07:04:41,977 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /order/getall
+2024-08-13 07:04:43,412 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:04:43,412 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:04:44,976 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /order/getall
+2024-08-13 07:04:44,976 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /order/getall
+2024-08-13 07:04:45,885 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /api/auth/getall
+2024-08-13 07:04:45,887 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /api/auth/getall
+2024-08-13 07:04:47,064 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /order/getall
+2024-08-13 07:04:47,066 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /order/getall
+2024-08-13 07:04:48,783 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /api/auth/getall
+2024-08-13 07:04:48,783 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /api/auth/getall
+2024-08-13 07:04:50,149 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:04:50,149 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:04:51,600 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /order/getall
+2024-08-13 07:04:51,600 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /order/getall
+2024-08-13 07:04:56,573 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:04:56,577 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:04:58,199 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /order/getall
+2024-08-13 07:04:58,201 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /order/getall
+2024-08-13 07:04:59,349 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:04:59,349 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:05:00,392 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /order/getall
+2024-08-13 07:05:00,393 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /order/getall
+2024-08-13 07:05:01,174 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /api/auth/getall
+2024-08-13 07:05:01,179 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /api/auth/getall
+2024-08-13 07:05:02,783 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:05:02,783 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:05:54,546 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /homeproduct/getallproduct
+2024-08-13 07:05:56,725 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/auth/getall
+2024-08-13 07:05:56,729 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /api/auth/getall
+2024-08-13 07:06:27,239 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /api/auth/getall
+2024-08-13 07:09:07,596 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /order/getall
+2024-08-13 07:09:07,600 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /order/getall
+2024-08-13 07:11:42,346 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /api/auth/login
+2024-08-13 07:11:44,176 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/auth/login
